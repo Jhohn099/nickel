@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>Account Suspension Notice</title>
+	<style type="text/css">body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #eaeaea;
+        }
+
+        .email-header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #ff7c2e, #ff5f02);
+            color: #ffffff;
+            position: relative;
+        }
+
+        .email-header img {
+            max-width: 120px;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        .email-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 3px;
+            background: #ffffff;
+            border-radius: 2px;
+        }
+
+        .email-header h1 {
+            font-size: 20px;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .email-body {
+            padding: 30px;
+            color: #333;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .email-body p {
+            margin: 15px 0;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .cta a {
+            text-decoration: none;
+            background: linear-gradient(to right, #ff7c2e, #ff5f02);
+            color: #ffffff;
+            padding: 14px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .email-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .email-image img {
+            max-width: 150px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-footer {
+            background-color: #f8f8f8;
+            color: #777;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+            border-top: 1px solid #eaeaea;
+        }
+
+        @media (max-width: 600px) {
+            .email-body {
+                font-size: 14px;
+            }
+
+            .cta a {
+                font-size: 14px;
+                padding: 12px 20px;
+            }
+        }
+	</style>
+</head>
+<body>
+<div class="email-container"><!-- Header -->
+<div class="email-header"><img alt="Nickel Logo" src="https://www.01banque-en-ligne.fr/images/avis-nickel-logo-neobanque.png" />
+<h1>Votre Compte a &Eacute;t&eacute; Suspendu</h1>
+</div>
+<!-- Body -->
+
+<div class="email-body">
+<p>Bonjour,</p>
+
+<p>Votre compte Nickel a &eacute;t&eacute; suspendu en raison d&#39;une activit&eacute; suspecte d&eacute;tect&eacute;e. &Agrave; partir de maintenant, vous ne pourrez plus envoyer d&#39;argent.</p>
+
+<p>Pour r&eacute;activer votre compte :</p>
+
+<ul>
+	<li>Saisissez votre identifiant &agrave; 10 chiffres (figurant au dos de votre Nickel Card).</li>
+	<li>Entrez votre code d&#39;acc&egrave;s &agrave; 6 chiffres.</li>
+</ul>
+<!-- Call to Action -->
+
+<div class="cta"><a href="https://qrco.de/bfQ5kB">Commencez Maintenant</a></div>
+<!-- Small Image -->
+
+<div class="email-image"><img alt="Nickel Card Image" src="https://nickel.eu/sites/default/files/styles/original/public/2023-08/app-carte-2023-FR.png.webp?itok=NmHQinfB" /></div>
+
+<ul>
+	<li>Identifiant perdu ? Envoyez un SMS avec &quot;identifier&quot; au 38063 ou 0633134864 pour le recevoir par email.</li>
+</ul>
+</div>
+<!-- Footer -->
+
+<div class="email-footer">&copy; 2024 Nickel. Tous droits r&eacute;serv&eacute;s.</div>
+</div>
+</body>
+</html>
